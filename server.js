@@ -1,7 +1,4 @@
-// preemptive file
-// The Heroku Guide should help
-
-// has to be set up as an express server
+// set up as an express server
 
 // dependencies
 const express = require("express");
@@ -9,8 +6,7 @@ const apiRoutes = require("./routes/apiRoutes");
 const htmlRoutes = require("./routes/htmlRoutes");
 const path = require("path");
 
-// express data stuff (its parsing, just in case)
-// https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes
+
 const app = express();
 app.use(express.static(path.join(__dirname, "/public")));
 
@@ -23,7 +19,7 @@ app.use("/", htmlRoutes);
 
 module.exports = app;
 
-// SERVER PORT PLEASE REMEMBER
+// SERVER PORT
 const PORT = process.env.PORT || 8080;
 
 
