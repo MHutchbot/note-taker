@@ -23,8 +23,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/travionfrancis/TAKER-OF-NOTES/issues"
   },
-  "homepage": "https://github.com/travionfrancis/TAKER-OF-NOTES"
+  "homepage": "https://github.com/MHutchbot/note-taker"
 }
